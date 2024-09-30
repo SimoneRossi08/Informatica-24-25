@@ -14,6 +14,6 @@ int main(){
 	scanf("%f", &altezza);
 	
 	area=(base*altezza)/2;
-	printf("L'area del triangolo vale: %.2f", &area);
+	printf("L'area del triangolo vale: %.2f", area);
 	
 }
