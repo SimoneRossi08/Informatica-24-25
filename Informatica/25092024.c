@@ -14,6 +14,5 @@ int main(){
 	scanf("%d", &n);
 	doppio=n*2;
 	printf("Il doppio vale: %d", doppio);
-	return 0
 	
 }
