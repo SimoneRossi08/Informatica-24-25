@@ -14,7 +14,7 @@ int main()
             printf("%d è divisibile sia per 3 che per 5", n);
         } 
      else{
-        printf("%d  è divisibile  per 3 ma non per 5", n);
+        printf("%d  è divisibile per 3 ma non per 5", n);
          }
     }
     else{
