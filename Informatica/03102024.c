@@ -1,3 +1,4 @@
+/*Chiedi all'utente 5 numeri e mostrali in ordine crescente. */
 
 #include <stdio.h>
 
