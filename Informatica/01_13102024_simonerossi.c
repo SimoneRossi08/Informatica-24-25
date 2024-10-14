@@ -13,8 +13,12 @@ int main()
         printf ("Inserisci il giorno, il mese, l' anno della seconda data\n");
         scanf ("%d %d %d", &g2, &m2, &a2);
 
+
+        if(m1>12 || g1>31 || m2>12 || g2>31)
+                printf("I gli orari non sono accettabili");
+
         if(a1>a2)
-            printf("La prima data è la più recente\n");
+                printf("La prima data è la più recente\n");
         if(a1==a2 && m1>m2)
                 printf("La prima data è la più recente\n");
         if(a1==a2 && m1==m2 && g1>g2)
