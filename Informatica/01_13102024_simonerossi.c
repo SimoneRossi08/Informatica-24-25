@@ -117,7 +117,7 @@ int main()
 
 
     if(a1==a2 && m1==m2 && g1==g2)
-        printf("La prima data e la seconda sono identiche.");
+        printf("La prima data e la seconda data sono uguali.");
 
 return 0;
 
