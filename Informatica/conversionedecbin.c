@@ -5,7 +5,14 @@
 
 int main(){
 
-    int num,quoz,n0,n1,n2,n3,n4,n5;
+    int num=0;
+    int quoz=0;
+    int n0=0;
+    int n1=0;
+    int n2=0;
+    int n3=0;
+    int n4=0;
+    int n5=0;
 
     printf("Inserisci un numero compreso tra 0 63: ");
     scanf("%d", &num);
@@ -39,8 +46,7 @@ int main(){
             quoz=quoz/2; //abbiamo aggiornato il nuovo valore del quoziente
         }
         printf("Il numero decimale %d in binario vale: %d%d%d%d%d%d", num,n5,n4,n3,n2,n1,n0);
-
     }
     else
-        printf("Il valore inserito non rispetta le richieste. ");
+        printf("Il valore inserito non rispetta le richieste.");
 }
