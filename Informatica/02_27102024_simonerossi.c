@@ -34,6 +34,7 @@ int main(){
     printf("3) Moltiplicazione\n");
     printf("4) Divisione\n");
     printf("5) Uscire dal programma\n\n");
+    printf("Inserisci il numero dell'operazione: \n");
     scanf("%d", &op);
 
     switch (op)
@@ -55,7 +56,7 @@ int main(){
         printf("Il risultato della divisione tra %d e %d equivale a %.2f", n1,n2,r);
         break;
     case 5:
-        printf("Nessuna operazione è stata eseguita. Puoi uscire dal programma.");
+        printf("Nessuna operazione è stata eseguita. \nPuoi uscire dal programma.\n\n");
         return 0;
         break;
     default:
