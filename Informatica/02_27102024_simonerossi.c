@@ -12,6 +12,7 @@ ES: Seleziona l'operazione da eseguire:
         4.  DIVISIONE */
 
 #include <stdio.h>
+#include <stdlib.h>
 
 int main(){
 
@@ -20,18 +21,19 @@ int main(){
     int n2;
     float r;
 
-    int max=1000;
+    int max=10000;
     int min=1;
 
+    srand(time(NULL));
     n1=rand()%(max-min+1)+min;
     n2=rand()%(max-min+1)+min;
 
-    printf("Scegli l'operazione che vuoi eseguire: \n");
+    printf("Scegli l'operazione che vuoi eseguire: \n\n");
     printf("1) Addizione\n");
     printf("2) Sottrazione\n");
     printf("3) Moltiplicazione\n");
     printf("4) Divisione\n");
-    printf("5) Uscire dal programma\n");
+    printf("5) Uscire dal programma\n\n");
     scanf("%d", &op);
 
     switch (op)
@@ -54,6 +56,7 @@ int main(){
         break;
     case 5:
         printf("Nessuna operazione è stata eseguita. Puoi uscire dal programma.");
+        return 0;
         break;
     default:
         printf("L'operazione scelta non esiste.");
