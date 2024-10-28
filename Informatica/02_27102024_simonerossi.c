@@ -16,9 +16,7 @@ ES: Seleziona l'operazione da eseguire:
 
 int main(){
 
-    int op;
-    int n1;
-    int n2;
+    int op,n1,n2;
     float r;
 
     int max=10000;
@@ -37,8 +35,7 @@ int main(){
     printf("Inserisci il numero dell'operazione: \n");
     scanf("%d", &op);
 
-    switch (op)
-    {
+    switch (op){
     case 1:
         r=n1+n2;
         printf("Il risultato della somma tra %d e %d equivale a %.2f", n1,n2,r);
