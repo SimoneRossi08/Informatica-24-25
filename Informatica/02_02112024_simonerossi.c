@@ -15,7 +15,7 @@ int main(){
     int obj=0;
     int flag=0;
 
-    //copmuter
+    //computer
     srand(time(NULL));
     int max=3;
     int min=1;

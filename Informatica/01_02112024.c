@@ -7,30 +7,27 @@
 #include <stdio.h>
 int main(){
 
-    int conv=0;
-    float EU=1;
-    float DO=1.23;
-    float DEN=0;
+    float den=0, dconv=0;
+    int scelta=0;
+    const float tax=1.23;
 
     printf("Inserisci una somma di denaro: ");
-    scanf("%f", &DEN);
+    scanf("%f", &den);
 
     printf("Scegli la valuta da convertire: ");
-    printf("1) Dollari in Euro");
-    printf("2) Euro in Dollari");
-    scanf("%d", &conv);
+    printf("\n1) Dollari in Euro");
+    printf("\n2) Euro in Dollari\n");
+    scanf("%d", &scelta);
 
-    switch(conv)
+    switch(scelta)
     {
     case 1:
-        DEN=DO;
-        EU=DO/EU;
-        printf("I %.2f dollari valgono %.2f euro.", DO, EU);
+        dconv=den/tax;
+        printf("I %.2f dollari valgono %.2f euro.", den, dconv);
         break;
     case 2:
-        DEN=EU;
-        DO=EU*DO;
-        printf("I %.2f euro valgono %.2f dollari.", EU, DO);
+        dconv=den*tax;
+        printf("I %.2f euro valgono %.2f dollari.", den, dconv);
         break;
     
     default:
