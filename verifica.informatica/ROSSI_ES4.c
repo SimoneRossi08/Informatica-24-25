@@ -11,7 +11,8 @@ int main(){
 
     printf("Inserisci un numero: ");
     scanf("%d", &n);
-    
+
+    e=
 
 }
 
