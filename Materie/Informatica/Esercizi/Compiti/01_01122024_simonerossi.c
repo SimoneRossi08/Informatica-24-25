@@ -6,16 +6,16 @@ metodo delle somme successive dopo aver controllato l’input e accettato
 
 int main(){
 
-int n,p;
+    int n,p;
 
-do{
-printf("Scrivi un numero maggiore di 0: ");
-scanf("%d", &n);
-}
-while(n<=0);
+    do{
+        printf("Scrivi un numero maggiore di 0: ");
+        scanf("%d", &n);
+    }
+    while(n<=0);
 
-for(int i=1; p=n*i; i++){
-printf("%d ", p);
-}
+    for(int i=1; p=n*i; i++){
+        printf("%d ", p);
+    }
 
 }
