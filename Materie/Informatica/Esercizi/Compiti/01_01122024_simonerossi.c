@@ -6,15 +6,18 @@ metodo delle somme successive dopo aver controllato l’input e accettato
 
 int main(){
 
-    int n,p;
+    int n1=0,n2=0,p=0;
 
     do{
-        printf("Scrivi un numero maggiore di 0: ");
-        scanf("%d", &n);
+        printf("Scrivi il primo numero maggiore di 0: ");
+        scanf("%d", &n1);
+        printf("Scrivi il secondo numero maggiore di 0: ");
+        scanf("%d", &n2);
     }
-    while(n<=0);
+    while(n1<=0 && n2<=0);
 
-    for(int i=1; p=n*i; i++){
+    for(int i=1; i<=n2; i++){
+        p+=n1;
         printf("%d ", p);
     }
     return 0;
