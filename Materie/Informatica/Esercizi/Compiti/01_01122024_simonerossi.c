@@ -17,5 +17,5 @@ int main(){
     for(int i=1; p=n*i; i++){
         printf("%d ", p);
     }
-
+    return 0;
 }
