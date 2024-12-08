@@ -14,10 +14,9 @@ int main(){
         printf("Inserisci un numero: ");
         scanf("%d", &n);
         cnt++;
-        n+=n;
-        n+=n;
+        s+=n;
+        s=n;
         if(cnt%4==0){
-            s=n;
             printf("La somma equivale a: %d\n", s);
         }
     }
