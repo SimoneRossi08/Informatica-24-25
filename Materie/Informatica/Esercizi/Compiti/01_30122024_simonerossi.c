@@ -46,7 +46,7 @@ int main(){
             t+=m;
         }
         else{
-            printf("Moneta non valida! Inserisci una moneta da 1, 5, 10, 20, o 50 centesimi.\n");
+            printf("ERRORE: Moneta non valida!\n");
         }
     }while(t<c);
     
