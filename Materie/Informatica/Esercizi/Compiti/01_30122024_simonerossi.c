@@ -7,6 +7,7 @@ sequenza e restituisce una serie di numeri interi corrispondenti al resto in mon
 #include <stdio.h>
 
 int main(){
+    
     int p,c,r,m,t=0,r5,r1;
 
     do{
