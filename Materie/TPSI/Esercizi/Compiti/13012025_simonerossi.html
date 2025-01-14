@@ -21,6 +21,10 @@
                 color: white;
 				font-size: 22px;
             }
+            table{
+                border-color: red;
+                border: 2px;
+            }
         </style>
     </head>
     <body>
@@ -52,5 +56,26 @@
         <p>
             In questo testo alcune parti sono <font style="color:red; font-weight: bold;">evidenziate in rosso grassetto</font><br>
             mentre altri parti sono <i><font style="color:blue">evidenziate in blu corsivo</font></i><br>
-            e parti sono <marker><font style="color:green; background-color: yellow">VERDI SU FONDO GIALLO</font></marker><br>
+            e parti sono <font style="color:green; background-color: yellow">VERDI SU FONDO GIALLO</font><br>
         </p>
+        <table style="width:50%; height:300px; border:1px solid red;">
+            <tr>
+                <td colspan="3" style="border:1px solid red;"></td>
+                <td style="border:1px solid red;"></td>
+            </tr>
+            <tr>
+                <td style="border:1px solid red;"></td>
+                <td rowspan="2" style="border:1px solid red;"></td>
+                <td colspan="2" style="border:1px solid red;"></td>
+            </tr>
+            <tr>
+                <td style="border:1px solid red;"></td>
+                <td rowspan="2" style="border:1px solid red;"></td>
+                <td rowspan="2" style="border:1px solid red;"></td>
+            </tr>
+            <tr>
+                <td style="border:1px solid red;"></td>
+                <td style="border:1px solid red;"></td>
+            </tr>
+        </table>
+            
