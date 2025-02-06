@@ -10,14 +10,15 @@ int main(){
     int n=0;
     long conv=0;
 
+    do{
     printf("Inserisci un valore: ");
     scanf("%d", &n);
-
-    while(n<=0){
-        conv=converti(n);
-        printf("%ld\n", conv);
     }
+    while(n<=0);
 
+    conv=converti(n);
+    printf("%ld\n", conv);
+    
 }
 
 long converti(int _n){
@@ -30,7 +31,7 @@ long converti(int _n){
     while(quoz!=0){
         resto=quoz%2;
         quoz=quoz/2;
-        _conv=pow(10,cont);
+        _conv+=resto*pow(10,cont);
         cont++;
     }
     return _conv;
