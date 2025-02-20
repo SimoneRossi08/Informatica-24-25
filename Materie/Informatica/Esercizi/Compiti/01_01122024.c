@@ -12,7 +12,7 @@ scanf("%d", &n);
 }
 while(n<=0);
 
-for(int i=1; n=n*i){
+for(int i=1; n=n*i; i++){
 printf("%d ", n);
 }
 

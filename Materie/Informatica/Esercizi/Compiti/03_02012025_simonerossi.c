@@ -19,10 +19,10 @@ int main(){
     }
     while(p<0);
     for(int m=0; f<=0; m--){
-        if(f==){
+        if(f==0){
             int c=rand()%(50-1+1)+1;
         }
-        if(==){
+        if(f==1){
             b=f;
         }
     }
