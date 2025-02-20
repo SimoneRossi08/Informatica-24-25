@@ -6,4 +6,5 @@ int main(){
 
     int a,e,i,o,u;
     
-    printf("
+    printf("");
+}
