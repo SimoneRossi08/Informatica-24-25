@@ -12,7 +12,7 @@ void potenza(int *_n, int *_s);
 
 int main(){
 
-    int n,p,s=0;
+    int n,s=0;
 
     do{
         printf("Inserisci un numero: ");
@@ -22,24 +22,16 @@ int main(){
 
     int potenza(&n,&s);
 
-    printf("%d", s);
+    printf("Il quadrato vale %d", s);
 }
 
 void potenza(int *_n, int *_s){
 
-int p;
-
-    (p)=(*_n)*(*_n);
-    i=p;
+int d=1;
     
-    do{
-        i--;
-        if(i%2!=0){
-            *_s+=i;
-        }
+    for(int i=1; i<=*_n; i++){
+        printf("%d\t", d);
+        *_s+=d;
+        d+=2;
     }
-    while(*_s=*_n);
-
-    printf("%d", *_s);
-
 }
