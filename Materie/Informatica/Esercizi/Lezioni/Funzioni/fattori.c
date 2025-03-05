@@ -8,7 +8,7 @@
 
 #include <stdio.h>
 
-void fattori(_n);
+void fattori(int _n);
 
 int main(){
 
@@ -20,7 +20,7 @@ int main(){
     fattori(n);
 }
 
-void fattori(_n){
+void fattori(int _n){
 
     int q;
     q=_n;

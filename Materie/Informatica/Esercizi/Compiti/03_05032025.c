@@ -1,0 +1,1 @@
+/* Calcolare il fattoriale di un numero. */
