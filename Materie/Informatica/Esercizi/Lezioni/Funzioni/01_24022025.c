@@ -20,7 +20,7 @@ int main(){
     }
     while(n<0);
 
-    int potenza(&n,&s);
+    potenza(n,s);
 
     printf("Il quadrato vale %d", s);
 }
