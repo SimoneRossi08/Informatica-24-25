@@ -38,7 +38,7 @@ void stampaVettore(int v[], int d){
             
 void stampaDueMax(int v[], int d){
     
-        int m1 = v[0],m2 = v[0];
+        int m1=v[0],m2=v[0];
             
         for(int i=0; i<=d; i++){
                 if(v[i]>m1){
