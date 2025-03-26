@@ -19,3 +19,5 @@ void riempivettore(int v[], int d);
  * @param int massimo valore dei numeri casuali
  */
 void riempivettorecasuale(int v[], int d, int min, int max);
+
+void media(int v[],int dim);
