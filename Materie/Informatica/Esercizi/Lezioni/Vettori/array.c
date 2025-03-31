@@ -110,11 +110,31 @@ int contavalori(int v[], int d, int val){
 
 void scambiovettori(int v1[], int v2[], int d){
 
-    int t;
+    int t[d];
 
     for(int i=0; i<d; i++){
         t[i]=v1[i];
         v1[i]=v2[i];
         v2[i]=t[i];
+    }
+}
+
+void bubblesort(int v[], int d){
+
+    int t,flag=0,i=0;
+
+    while(flag==0){
+        flag=1;
+
+        for(int j=0; j<d-1-i; j++){
+            if(v[j]>v[j+1]){
+                flag=0;
+
+                t=v[j];
+                v[j]=v[j+1];
+                v[j+1]=t;
+            }
+        }
+        i++;
     }
 }

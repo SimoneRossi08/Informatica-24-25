@@ -33,9 +33,22 @@ void media(int v[],int dim);
  * @param int massimo valore dei numeri casuali
  */
 void riempivettoreordinatocasuale(int v[], int d, int min, int max);
-
+/**
+ * questa funzione restituisce la posizione del primo elemento in un array ordinato in ordine crescente che ha valore uguale alla variabile valore, se non trova l'elemento restituisce -1
+ * @param int[]vettore in ingresso
+ * @param int dimensione del vettore
+ * @param int indice dell'elemento da cui parte la ricerca
+ * @param int indice dell'elemento a cui arriva la ricerca
+ * @param int valore da ricercare
+ */
 int ricercabinaria(int v[], int d, int estInf, int estSup, int val);
-
+/**
+ * questa funzione restituisce la posizione del primo elemento nell'array che ha valore uguale alla variabile valore, se non trova l'elemento restituisce -1
+ * @param int* vettore in ingresso
+ * @param int dimensione del vettore
+ * @param int valore da ricercare
+ * @return int posizione del primo elemento uguale a valore o -1 se non trovato
+ */
 int ricercasequenziale(int *v, int d, int val);
 /**
  * funzione che conta la quantità di volte che appare il valore scelto.
@@ -51,3 +64,9 @@ int contavalori(int v[], int d, int val);
  * @param int dimensione del vettore 
  */
 void scambiovettori(int v1[], int v2[], int d);
+/**
+ * funzione che ordina un vettore
+ * @param int [] vettore in ingresso
+ * @param int dimensione del vettore
+ */
+void bubblesort(int v[], int d);
