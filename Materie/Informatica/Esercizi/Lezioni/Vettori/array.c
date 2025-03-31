@@ -9,11 +9,11 @@ void stampavettore(int v[], int d, char s){
     }
 }
 
-void riempivettore(int vettore[], int dim){
+void riempivettore(int v[], int d){
 
-    for(int i=0; i<dim; i++){
-        printf("inserici l'elemento in posizione di %d: ", i);
-        scanf("%d", &vettore[i]);
+    for(int i=0; i<d; i++){
+        printf("Inserici l'elemento in posizione di %d: ", i);
+        scanf("%d", &v[i]);
     }
 }
 
@@ -106,4 +106,15 @@ int contavalori(int v[], int d, int val){
         }
     }
     return cnt;
+}
+
+void scambiovettori(int v1[], int v2[], int d){
+
+    int t;
+
+    for(int i=0; i<d; i++){
+        t[i]=v1[i];
+        v1[i]=v2[i];
+        v2[i]=t[i];
+    }
 }

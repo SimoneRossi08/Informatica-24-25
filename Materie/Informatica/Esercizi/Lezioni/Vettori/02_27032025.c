@@ -1,4 +1,4 @@
-/* Dati 2 vettori chiamati A e B di dimensione uguale scambiare i valori dei vettori */
+/* Dati 2 vettori chiamati A e B di dimensione uguale scambiare i valori dei vettori. */
 
 #include <stdio.h>
 #include <stdlib.h>
