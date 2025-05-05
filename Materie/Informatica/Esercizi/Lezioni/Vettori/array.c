@@ -138,3 +138,25 @@ void bubblesort(int v[], int d){
         i++;
     }
 }
+
+void scambiominmax(int v[], int d){
+
+    int min,max,imax,imin;
+
+    min=v[0];
+    max=v[0];
+
+    for(int i=1; i<d; i++){
+        if(v[i]<min){
+            min=v[i];
+            imin=i;
+        }
+        if(v[i]>max){
+            max=v[i];
+            imax=i;
+        }
+    }
+
+    v[imin]=max;
+    v[imax]=min;
+}

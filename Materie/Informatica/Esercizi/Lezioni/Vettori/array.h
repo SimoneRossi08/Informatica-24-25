@@ -70,3 +70,9 @@ void scambiovettori(int v1[], int v2[], int d);
  * @param int dimensione del vettore
  */
 void bubblesort(int v[], int d);
+/**
+ * funzione che scambia il valore minimo con il valore massimo e viceversa di un vettore
+ * @param int [] vettore in ingresso
+ * @param int dimensione del vettore
+ */
+void scambiominmax(int v[], int d);

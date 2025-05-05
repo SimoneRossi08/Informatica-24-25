@@ -18,6 +18,7 @@ int main(){
         printf("\n1. Caricare un array. ");
         printf("\n2. Stampare l'array. ");
         printf("\n3. Ordina l'array tramite BubbleSort. ");
+        printf("\n4. Scambiare il valore minimo con il valore massimo. ");
         printf("\nDigitare 0 per terminare il programma. \n");
         scanf(" %d", &scelta);
 
@@ -30,6 +31,9 @@ int main(){
                 break;
             case 3:
                 bubblesort(v, DIM);
+                break;
+            case 4:
+                scambiominmax(v, DIM);
                 break;
             default:
                 if(scelta!=0){
